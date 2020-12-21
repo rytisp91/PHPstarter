@@ -26,7 +26,7 @@ include_once '../controllers/php.php';
                 <th>Phone Number</th>
             </tr>
             <?php foreach ($array['users'] as $value) : ?>
-                <tr>
+                <tr id="<?php print $value['id']; ?>">
                     <td><?php print $value[0]; ?></td>
                     <td><?php print $value[4]; ?></td>
                 </tr>
