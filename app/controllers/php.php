@@ -48,6 +48,10 @@ fclose($CSVread);
 
 $array['users'] = $users;
 
+for ($i = 0; $i < count($array['users']); $i++) {
+    $array['users'][$i]['id'] = $i + 2;
+};
+
 if (date('s') % 2 == 0) {
     $bg = "../../assets/1.jpg";
 } else {
