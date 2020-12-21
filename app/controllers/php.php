@@ -53,7 +53,7 @@ for ($i = 0; $i < count($array['users']); $i++) {
 };
 
 if (date('s') % 2 == 0) {
-    $bg = "../../assets/1.jpg";
+    $bg = "../../assets/img/1.jpg";
 } else {
-    $bg = "../../assets/2.jpg";
+    $bg = "../../assets/img/2.jpg";
 };
